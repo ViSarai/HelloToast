@@ -31,7 +31,7 @@
         android:id="@+id/showCount"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#FFC107"
+        android:background="#E3BF53"
         android:gravity="center"
         android:text="0"
         android:textColor="@color/black"
