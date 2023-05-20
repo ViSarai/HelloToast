@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:onClick="showToast"
         android:text="Toast"
+        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:onClick="showCount"
         android:text="Count"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/buttonReset"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -30,6 +32,7 @@
     <TextView
         android:id="@+id/showCount"
         android:layout_width="0dp"
+
         android:layout_height="0dp"
         android:background="#E3BF53"
         android:gravity="center"
@@ -47,6 +50,7 @@
         android:layout_height="wrap_content"
         android:onClick="reset"
         android:text="Reset"
+       android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
