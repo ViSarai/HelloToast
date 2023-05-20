@@ -41,6 +41,7 @@
         android:background="#E3BF53"
         android:gravity="center"
         android:text="0"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="@color/black"
         android:textSize="160sp"
         android:textStyle="bold"
